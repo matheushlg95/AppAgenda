@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/listevento"
+            android:layout_width="match_parent"
+            android:layout_height="671dp" />
+
+        <Button
+            android:id="@+id/btback"
+            android:layout_width="wrap_content"
+            android:layout_height="57dp"
+            android:layout_alignStart="@+id/listevento"
+            android:layout_alignLeft="@+id/listevento"
+            android:layout_alignTop="@+id/listevento"
+            android:layout_alignEnd="@+id/listevento"
+            android:layout_alignRight="@+id/listevento"
+            android:layout_alignBottom="@+id/listevento"
+            android:layout_marginStart="65dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="612dp"
+            android:layout_marginEnd="76dp"
+            android:layout_marginRight="76dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/botao"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Voltar"
+            android:textColor="#FF0A0A"
+            android:textSize="32sp" />
+
+    </RelativeLayout>
+</ScrollView>
